@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/ExpenseItem.css";
-import Card from "./Card";
+import "../../styles/ExpenseItem.css";
+import Card from "../UI/Card";
 import ExpenseDate from "./ExpenseDate";
 
 export default function ExpenseItem({ date, title, amount }) {

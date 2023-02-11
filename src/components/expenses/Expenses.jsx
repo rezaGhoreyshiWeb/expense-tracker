@@ -1,12 +1,9 @@
 import React from "react";
-import "../styles/Expenses.css";
-import Card from "./Card";
+import "../../styles/Expenses.css";
+import Card from "../UI/Card";
 import ExpenseItem from "./ExpenseItem";
 
-
-
-
-export default function Expenses({items}) {
+export default function Expenses({ items }) {
   return (
     <Card className="expenses">
       <ExpenseItem
